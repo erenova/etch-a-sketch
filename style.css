@@ -35,6 +35,11 @@
 .title {
     display: flex;
     justify-content: center;
+    font-weight: 600;
+    font-size: 72px;
+    background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .buttons {

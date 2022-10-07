@@ -55,9 +55,9 @@ document.querySelector('body').addEventListener('click', (clickArea) => {
     if (clickArea.target.tagName != "BUTTON" && clickArea.target.tagName != "INPUT")
     { click = !click
     if(click){
-        document.querySelector('.mode').textContent = 'Mode: Coloring'
+        document.querySelector('.mode').textContent = 'Coloring: ON'
     }
     else {
-        document.querySelector('.mode').textContent = 'Mode: Not Coloring'
+        document.querySelector('.mode').textContent = 'Coloring: OFF'
     }}
 })
